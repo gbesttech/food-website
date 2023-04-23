@@ -34,7 +34,7 @@ window.onscroll = () => {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 
-    section.forEach(sec =>{
+    section.forEach(sec => {
 
         let top = window.scrollY;
         let height = sec.offsetHeight;
@@ -42,9 +42,9 @@ window.onscroll = () => {
         let id = sec.getAttribute('id');
 
         if(top => offset && top < offset + height){
-            navLinks.forEach(links =>{
-                links.classList.remove('active');
-                document.querySelector('header .navbar a[href*='+id+']').classList.add('active');
+            navLinks.forEach(links => {
+                links.classList.remove('.active');
+                document.querySelector('header .navbar a[href*='+id+']').classList.add('.active');
             });
         };
     });
@@ -68,7 +68,7 @@ var swiper = new Swiper(".home-slider", {
    spaceBetween: 50,
    centeredSlides: true,
    autoplay: {
-    delay: 2500,
+    delay: 7500,
     disableOnInteraction: false,
    },
 
