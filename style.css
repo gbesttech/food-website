@@ -683,7 +683,7 @@ header .icons #menu-bars {
 .mobile-menu .wrap,
 .cart-menu .wrap,
 .sidebar > .wrap {
-    position: relative;
+    position: absolute;
     max-width: calc(100% - 40px);
     width: 360px;
     height: 100%;
