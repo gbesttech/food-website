@@ -65,7 +65,7 @@ section:nth-child(even) {
 }
 
 header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -962,7 +962,7 @@ header .icons #menu-bars {
     }
 
     header {
-        padding: 0;
+        padding: 2rem;
     }
 
     section {
@@ -1032,6 +1032,8 @@ header .icons #menu-bars {
         color: var(--green);
         font-size: 25px;
     }
+
+    
 }
 
 
@@ -1041,11 +1043,6 @@ header .icons #menu-bars {
     html {
         font-size: 50%;
     }    
-
-    header {
-        padding: .5rem;
-        width: 100%;
-    }
 
     .dishes .box-container .box img {
         height: auto;
