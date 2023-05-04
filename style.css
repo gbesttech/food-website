@@ -25,6 +25,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+}
 
 section {
     padding: 2rem 9%;
@@ -66,7 +70,7 @@ section:nth-child(even) {
 }
 
 header {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -684,7 +688,7 @@ header .icons #menu-bars {
 .mobile-menu .wrap,
 .cart-menu .wrap,
 .sidebar > .wrap {
-    position: fixed;
+    position: relative;
     max-width: calc(100% - 40px);
     width: 360px;
     height: 100%;
@@ -963,7 +967,7 @@ header .icons #menu-bars {
     }
 
     header {
-        padding: 2rem;
+        padding:1rem 2rem;
     }
 
     section {
@@ -976,6 +980,7 @@ header .icons #menu-bars {
 
     header .icons #menu-bars {
         display: inline-block;
+        position: fixed;
     }
 
     header .navbar {
@@ -1044,6 +1049,11 @@ header .icons #menu-bars {
     html {
         font-size: 50%;
     }    
+
+    header .icons #menu-bars {
+        display: inline-block;
+        position: fixed;
+    }
 
     .dishes .box-container .box img {
         height: auto;

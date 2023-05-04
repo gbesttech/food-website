@@ -59,7 +59,7 @@ document.querySelector('#close-menu').onclick = () => {
 // ------- home section------//
 
 var swiper = new Swiper(".home-slider", {
-   spaceBetween: 50,
+   spaceBetween: 30,
    centeredSlides: true,
    autoplay: {
     delay: 7500,
